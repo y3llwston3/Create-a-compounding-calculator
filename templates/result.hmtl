@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculation Results</title>
+</head>
+<body>
+    <h1>Calculation Results</h1>
+    <p>Final Amount with Interest: ${{ final_amount }}</p>
+    <p>Difference from Contributions without interest: ${{ difference }}</p>
+    <h2>Difference in growth over time</h2>
+    <img src="data:image/png;base64, {{ plot_url }}" alt="Chart">
+    <br><br>
+    <a href="/">Back</a>
+</body>
+</html>
